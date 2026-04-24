@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-24T07:26:59.872603+00:00",
+  "last_updated": "2026-04-24T18:55:30.153778+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 6,
-      "total_workflow_runs": 36,
-      "total_success": 36,
+      "runs_with_data": 7,
+      "total_workflow_runs": 42,
+      "total_success": 42,
       "total_failure": 0,
       "success_rate": 100.0
     },
     "last_30_days": {
       "days": 15,
-      "runs_with_data": 7,
-      "total_workflow_runs": 42,
-      "total_success": 42,
+      "runs_with_data": 8,
+      "total_workflow_runs": 48,
+      "total_success": 48,
       "total_failure": 0,
       "success_rate": 100.0
     }
@@ -21,16 +21,55 @@
   "history": [
     {
       "date": "2026-04-24",
-      "orchestrator_ran": false,
-      "orchestrator_status": "not_run",
-      "orchestrator_url": null,
-      "workflows": {},
+      "orchestrator_ran": true,
+      "orchestrator_status": "queued",
+      "orchestrator_url": "https://github.com/vermouth1992/tensordict/actions/runs/24878578320",
+      "orchestrator_run_id": 24878578320,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24878578320/job/72841073231",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24878578320/job/72841073194",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24878578320/job/72841073189",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24878578320/job/72841073196",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24878578320/job/72841073221",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24878578320/job/72841073004",
+          "display_name": "Benchmarks"
+        }
+      },
       "summary": {
-        "total": 0,
-        "success": 0,
+        "total": 6,
+        "success": 6,
         "failure": 0,
         "skipped": 0,
-        "success_rate": null
+        "other": 0,
+        "success_rate": 100.0
       }
     },
     {
