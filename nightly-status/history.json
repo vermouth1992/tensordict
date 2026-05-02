@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T07:22:29.329603+00:00",
+  "last_updated": "2026-05-02T19:01:43.291727+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-05-02",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/vermouth1992/tensordict/actions/runs/25246757512",
       "orchestrator_run_id": 25246757512,
       "workflows": {
