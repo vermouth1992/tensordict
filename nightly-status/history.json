@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29T20:27:05.846205+00:00",
+  "last_updated": "2026-05-30T08:19:35.330283+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -19,6 +19,59 @@
     }
   },
   "history": [
+    {
+      "date": "2026-05-30",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/vermouth1992/tensordict/actions/runs/26679064662",
+      "orchestrator_run_id": 26679064662,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/26679064662/job/78636118122",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/26679064662/job/78636117853",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/26679064662/job/78636117818",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/26679064662/job/78636117827",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/26679064662/job/78636117849",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/26679064662/job/78636117816",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 6,
+        "success": 6,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-05-29",
       "orchestrator_ran": true,
