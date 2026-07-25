@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T19:25:51.555575+00:00",
+  "last_updated": "2026-07-25T07:53:32.305728+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -19,6 +19,59 @@
     }
   },
   "history": [
+    {
+      "date": "2026-07-25",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/vermouth1992/tensordict/actions/runs/30150110863",
+      "orchestrator_run_id": 30150110863,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/30150110863/job/89658940197",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/30150110863/job/89658939862",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/30150110863/job/89658939813",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/30150110863/job/89658939817",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/30150110863/job/89658939795",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/30150110863/job/89658939772",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 6,
+        "success": 6,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-07-24",
       "orchestrator_ran": true,
@@ -4695,59 +4748,6 @@
         "failure": 0,
         "skipped": 0,
         "success_rate": null
-      }
-    },
-    {
-      "date": "2026-04-26",
-      "orchestrator_ran": true,
-      "orchestrator_status": "queued",
-      "orchestrator_url": "https://github.com/vermouth1992/tensordict/actions/runs/24951020137",
-      "orchestrator_run_id": 24951020137,
-      "workflows": {
-        "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24951020137/job/73060994810",
-          "display_name": "Linux Tests"
-        },
-        "test-macos.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24951020137/job/73060994800",
-          "display_name": "MacOS Tests"
-        },
-        "test-rl-gpu.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24951020137/job/73060994895",
-          "display_name": "RL GPU Tests"
-        },
-        "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24951020137/job/73060994789",
-          "display_name": "Lint"
-        },
-        "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24951020137/job/73060994886",
-          "display_name": "Documentation"
-        },
-        "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/24951020137/job/73060994705",
-          "display_name": "Benchmarks"
-        }
-      },
-      "summary": {
-        "total": 6,
-        "success": 6,
-        "failure": 0,
-        "skipped": 0,
-        "other": 0,
-        "success_rate": 100.0
       }
     }
   ]
