@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T19:35:32.477144+00:00",
+  "last_updated": "2026-08-06T08:20:04.152323+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -19,6 +19,59 @@
     }
   },
   "history": [
+    {
+      "date": "2026-08-06",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/vermouth1992/tensordict/actions/runs/31084435463",
+      "orchestrator_run_id": 31084435463,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/31084435463/job/92560487543",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/31084435463/job/92560487086",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/31084435463/job/92560487055",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/31084435463/job/92560487082",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/31084435463/job/92560487124",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/vermouth1992/tensordict/actions/runs/31084435463/job/92560487075",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 6,
+        "success": 6,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-08-05",
       "orchestrator_ran": true,
@@ -4724,59 +4777,6 @@
           "status": "success",
           "conclusion": "success",
           "url": "https://github.com/vermouth1992/tensordict/actions/runs/25595692939/job/75141130759",
-          "display_name": "Benchmarks"
-        }
-      },
-      "summary": {
-        "total": 6,
-        "success": 6,
-        "failure": 0,
-        "skipped": 0,
-        "other": 0,
-        "success_rate": 100.0
-      }
-    },
-    {
-      "date": "2026-05-08",
-      "orchestrator_ran": true,
-      "orchestrator_status": "queued",
-      "orchestrator_url": "https://github.com/vermouth1992/tensordict/actions/runs/25542662373",
-      "orchestrator_run_id": 25542662373,
-      "workflows": {
-        "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/25542662373/job/74971758634",
-          "display_name": "Linux Tests"
-        },
-        "test-macos.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/25542662373/job/74971758045",
-          "display_name": "MacOS Tests"
-        },
-        "test-rl-gpu.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/25542662373/job/74971757982",
-          "display_name": "RL GPU Tests"
-        },
-        "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/25542662373/job/74971758019",
-          "display_name": "Lint"
-        },
-        "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/25542662373/job/74971758038",
-          "display_name": "Documentation"
-        },
-        "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/vermouth1992/tensordict/actions/runs/25542662373/job/74971757967",
           "display_name": "Benchmarks"
         }
       },
